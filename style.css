@@ -1,0 +1,232 @@
+@import url('https://fonts.googleapis.com/css2?family=Cairo:wght@200;400&family=Jost&family=Poppins:ital,wght@1,500&family=Tajawal:wght@300&display=swap');
+
+*{
+    font-family: 'Tajawal', sans-serif;
+    margin: 0%;
+    font-weight: 900;
+    padding: 0%;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+
+header{
+    background-color: #0a0c0f;
+    max-width: 100em;
+    width: 100%;
+    height: 7%;
+    display: flex;
+    position: fixed;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 2em;
+    box-shadow: 2px 2px 30px rgba(255, 255, 255, 0.137);
+    z-index: 1;
+}
+
+.logo img{
+    height: 1.3em;
+    margin-left: 10px;
+}
+
+.box{
+    font-size: 1em;
+    color: white;
+    background: none;
+    border: none;
+    outline: none;
+    border-bottom: 2px solid #00ec06;
+}
+
+
+.navi a{
+    margin-right: 2em;
+    text-decoration: none;
+    color: #00ec06;
+}
+
+body{
+    background-color: #101519;
+}
+
+.all-itm{
+    display: flex;
+    position: fixed;
+}
+
+.list-frd {
+    background-color: #0a0c0f;
+    max-width: 23%;
+    padding: 10px 15px;
+    box-shadow: 4px 4px 30px rgba(255, 255, 255, 0.137) ;
+}
+
+.list-frd img{
+    border-radius: 50%;
+    height: 6em;
+}
+
+.list-frd h1{
+    color: white;
+    margin-top: 20px;
+    margin-left: 5px;
+}
+
+.hed-list{
+    padding-top: 13.3%;
+}
+
+.hed-list img{
+    border: 4px dashed #00ec06;
+    padding: 3px;
+    cursor: pointer;
+}
+
+.hed-list img:hover{
+    border: 4px solid #00ec06;
+}
+
+.hed-list{
+    display: flex;
+}
+
+hr{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.add-frd{
+    font-size: 3em;
+    padding: 0px 20px;
+    text-align: center;
+    border-radius: 50%;
+    cursor: pointer;
+    background: none;
+    color: #00ec06;
+    border: 2px solid #00ec06;
+}
+
+.acc-frd{
+    background-color: #101519;
+    border-radius: 5%;
+    max-height: 30em;
+    overflow-y: scroll;  
+}
+
+.acc-frd::-webkit-scrollbar{
+    width: 7px;
+}
+
+.acc-frd::-webkit-scrollbar-thumb{
+    background-color: #00ff08b9;
+    border-radius: 10px;
+
+}
+
+.ACF{
+    display: flex;
+    margin-top: 1em;
+    padding: 7px 0px;
+}
+
+.ACF:hover{
+    background-color: #3a3a3a;
+    cursor: pointer;
+}
+
+.ACF img{
+    height: 4em;
+    margin-left: 10px;
+}
+
+h2{
+    color: white;
+    margin-top: 10px;
+}
+
+.plc-name{
+    color: #00ec06;
+    font-size: 2.5em;
+}
+
+.storis{
+    display: flex;
+    background-color: #101519;
+    border-radius: 5%;
+    max-height: 30em;
+    overflow-x: scroll;  
+    padding: 10px 10px;
+}
+
+.storis img{
+    height: 5em;
+    margin-left: 20px;
+    cursor: pointer;
+    padding: 4px;
+    border: 3px solid #00ec06;
+}
+
+.storis::-webkit-scrollbar{
+    height: 7px;
+}
+
+.storis::-webkit-scrollbar-thumb{
+    background-color: #00ff08b9;
+    border-radius: 10px;
+}
+
+.plc-chat{
+    background: url(images/backgd.jpg);
+}
+
+.plc-chat .hed-list2{
+    display: flex;
+    justify-content: space-between;
+    background-color: #0a0c0f;
+    width: 86.5em;
+    padding-top: 5em;
+    padding-bottom: 10px;
+    box-shadow: 4px 4px 30px rgba(255, 255, 255, 0.137);
+}
+
+.plc-chat .hed-list2 h1{
+    margin-right: 20px;
+    color: white;
+}
+
+
+.plc-chat .hed-list2 img{
+    border-radius: 50%;
+    height: 3.5em;
+    margin-left: 20px;
+}
+
+.plc-chat .hed-list2:hover{
+    background-color: #252525;
+    cursor: pointer;
+}
+
+.plc-input{
+    background-color: #0a0c0f;
+    margin-top: 52%;
+    padding: 10px 0px;
+}
+
+.inp-send-mess{
+    font-size: 2.5em;
+    background: none;
+    outline: none;
+    border: none;
+    color: #00ec06;
+    width: 90%;
+}
+
+.btn-send{
+    font-size: 2.5em;
+    padding: 0px 20px;
+    color: white;
+    background-color: #00ec06;
+    border: none;
+    cursor: pointer;
+    border-radius: 30px;
+}
