@@ -9,6 +9,10 @@
     scroll-behavior: smooth;
 }
 
+::selection{
+    background-color: #00ff0871;
+    border-radius: 30px;
+}
 
 header{
     background-color: #0a0c0f;
