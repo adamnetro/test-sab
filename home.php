@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="icons/nir2.ico">
+    <script src="https://kit.fontawesome.com/6c24739fa1.js" crossorigin="anonymous"></script>
+    <title>Nirvana</title>
+</head>
+<header>
+    <a href="#" class="logo"><img src="icons/Nirvana.ico"></a>
+    <input class="box" placeholder="Search">
+    <div class="navi">
+        <a href="#"><i class="fa-solid fa-gear"></i></a>
+    </div>
+</header>
+<body>
+    <div class="all-itm">
+    <div class="list-frd">
+        <div class="hed-list"> 
+        <img src="prfl/netro musk.jpg">
+        <h1>Agent Netro</h1>
+    </div>
+    <hr>
+    <button class="add-frd">+</button>
+    <hr>
+    <div class="acc-frd">
+        <div class="ACF">
+        <img src="prfl/9rd.jpg">
+        <h2>Bo 3aza</h2>
+    </div>
+    <div class="ACF">
+        <img src="prfl/inkn.jpg">
+        <h2>???????</h2>
+    </div>
+    <div class="ACF">
+        <img src="prfl/inkn.jpg">
+        <h2>???????</h2>
+    </div>
+    <div class="ACF">
+        <img src="prfl/inkn.jpg">
+        <h2>???????</h2>
+    </div>
+    <div class="ACF">
+        <img src="prfl/inkn.jpg">
+        <h2>???????</h2>
+    </div>
+    <div class="ACF">
+        <img src="prfl/inkn.jpg">
+        <h2>???????</h2>
+    </div>
+    <div class="ACF">
+        <img src="prfl/inkn.jpg">
+        <h2>???????</h2>
+    </div>
+    <div class="ACF">
+        <img src="prfl/inkn.jpg">
+        <h2>???????</h2>
+    </div>
+    </div>
+    <a class="plc-name">Storis</a>
+    <div class="storis">
+        <img src="prfl/inkn.jpg">
+        <img src="prfl/inkn.jpg">
+        <img src="prfl/inkn.jpg">
+        <img src="prfl/inkn.jpg">
+        <img src="prfl/inkn.jpg">
+        <img src="prfl/inkn.jpg">
+        <img src="prfl/inkn.jpg">
+        <img src="prfl/inkn.jpg">
+        <img src="prfl/inkn.jpg">
+    </div>
+    </div>
+    <div class="plc-chat">
+        <div class="hed-list2"> 
+            <img src="prfl/9rd.jpg">
+            <h1>Bo 3aza</h1>
+        </div>
+        <div class="mess-chat">
+            <div class="plc-input">
+            <input class="inp-send-mess" placeholder="Say Hi! 😀">
+            <button class="btn-send"><i class="fa-solid fa-paper-plane"></i></button>
+        </div>
+        </div>
+    </div>
+</div>
+<script src="script.js"></script>
+</body>
+</html>
